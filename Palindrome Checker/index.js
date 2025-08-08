@@ -20,16 +20,16 @@ botaoVerificar.addEventListener('click', function() {
     const textoDigitado = campoTexto.value;
     // Se o usuário não digitou nada, manda ele digitar!
     if (!textoDigitado) {
-        alert('Porfavor digite algo para verificar se é um palíndromo!');
+        alert('Please input a value.');
         return;
     }
     // Chama o detetive de palíndromos
     const ehPalindromo = verificarSeEhPalindromo(textoDigitado);
-    // Monta a resposta com drama digno de novela
+    // O resultado deve ser exatamente igual ao texto digitado, seguido de 'is a palindrome.' ou 'is not a palindrome.'
     if (ehPalindromo) {
-        resultado.textContent = `${textoDigitado} é um palíndromo! 🎉`;
+        resultado.textContent = `${textoDigitado} is a palindrome.`;
     } else {
-        resultado.textContent = `${textoDigitado} não e um palíndromo.`;
+        resultado.textContent = `${textoDigitado} is not a palindrome.`;
     }
 });
 
