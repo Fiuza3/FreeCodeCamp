@@ -1,0 +1,74 @@
+/* styles.css - O tapete vermelho do nosso verificador de palíndromos! */
+
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.caixa-palindromo {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #0001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#text-input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    font-size: 1rem;
+}
+
+#check-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+#check-btn:hover {
+    background: #0056b3;
+}
+
+#result {
+    font-weight: bold;
+    min-height: 1.5em;
+    color: #007bff;
+}
+
+footer {
+    margin-top: 2rem;
+    color: #888;
+}
+
+/* Fim do tapete vermelho! */
