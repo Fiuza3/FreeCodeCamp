@@ -1,0 +1,112 @@
+/* styles.css - O grimório visual do nosso bestiário! */
+
+body {
+    background: #ede7f6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    color: #512da8;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.caixa-bestiario {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #0001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-width: 320px;
+}
+
+#search-input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    font-size: 1rem;
+}
+
+#search-button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background: #512da8;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+#search-button:hover {
+    background: #311b92;
+}
+
+.creature-info {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#creature-name {
+    font-size: 1.5rem;
+    color: #311b92;
+    margin-bottom: 0.25rem;
+}
+
+#creature-id {
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+#types {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#types > * {
+    background: #ede7f6;
+    color: #512da8;
+    border-radius: 5px;
+    padding: 0.25rem 0.75rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 0.25rem;
+    color: #444;
+}
+
+footer {
+    margin-top: 2rem;
+    color: #888;
+}
+
+/* Fim do grimório! */

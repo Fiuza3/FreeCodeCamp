@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Criaturas RPG - O Bestiário Moderno!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Busca de Criaturas RPG 🐉</h1>
+        <p>Procure criaturas lendárias pelo nome ou ID e descubra seus segredos!</p>
+        <div class="caixa-bestiario">
+            <input id="search-input" type="text" placeholder="Digite o nome ou ID da criatura..." required />
+            <button id="search-button">Buscar</button>
+            <div class="creature-info">
+                <h2 id="creature-name"></h2>
+                <span id="creature-id"></span>
+                <div id="types"></div>
+                <span id="weight"></span>
+                <span id="height"></span>
+                <ul>
+                    <li>HP: <span id="hp"></span></li>
+                    <li>Ataque: <span id="attack"></span></li>
+                    <li>Defesa: <span id="defense"></span></li>
+                    <li>Ataque Especial: <span id="special-attack"></span></li>
+                    <li>Defesa Especial: <span id="special-defense"></span></li>
+                    <li>Velocidade: <span id="speed"></span></li>
+                </ul>
+            </div>
+        </div>
+        <footer>Feito com magia, dados e JavaScript 🧙‍♂️</footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

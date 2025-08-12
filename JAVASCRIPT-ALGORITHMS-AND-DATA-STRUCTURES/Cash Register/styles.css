@@ -1,0 +1,74 @@
+/* styles.css - O cofre do nosso caixa registradora! */
+
+body {
+    background: #fffde7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    color: #795548;
+}
+
+p, label {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.caixa-registradora {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #0001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#cash {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    font-size: 1rem;
+}
+
+#purchase-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background: #795548;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+#purchase-btn:hover {
+    background: #4e342e;
+}
+
+#change-due {
+    font-weight: bold;
+    min-height: 1.5em;
+    color: #795548;
+}
+
+footer {
+    margin-top: 2rem;
+    color: #888;
+}
+
+/* Fim do cofre! */
